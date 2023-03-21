@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Background Remover</h1>
+      <form>
+        <label for="file">Select an image:</label>
+        <input type="file" id="file" name="file">
+        <button type="button" class="button" onclick="removeBackground()">Remove background</button>
+      </form>
+      <div id="result"></div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
